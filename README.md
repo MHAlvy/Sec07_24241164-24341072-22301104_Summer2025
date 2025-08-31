@@ -1,6 +1,5 @@
      Project Idea:  Spaceship Dodger 3D
 
-     
 Game Features and Functionality
 
 1. Full 3D Spaceship Movement and Control
@@ -29,8 +28,8 @@ Camera follows and smoothly interpolates with the ship, optionally with dynamic 
 The game is divided into distinct zones or levels, each introducing new background, obstacle sets, or visual style changes (such as nebulae, tunnels, planets, all drawn using basic 3D geometric primitives).
 Includes checkpoints for Respawn or Bonus Points.
 
-7. Health/Shield/Lives System
-Spaceship has a health bar, shield meter, or fixed lives visible on screen.
+7.Shield/Lives System
+Spaceship has a shield meter, or fixed lives visible on screen.
 Collisions reduce health/shield; shields recharge over time or by picking up objects.
 
 8. High Score/Leaderboard System
@@ -41,21 +40,18 @@ Includes scorekeeping based on distance, obstacles dodged, and time survived.
 Include full in-game menus: main menu, pause, game over, and settings.
 Implement functional state changes (pausing animation, restarting game, returning to menu).
 
-10. Spaceship Customization/Selection
-Multiple spaceship models, colors, or “skins” selectable in a pre-game menu or between runs.
-All implemented with template drawing functions, model variations use different primitive combinations or color/material settings.
 
-11 . Custom Digital Line Rendering System
+
+10 . Custom Digital Line Rendering System
 Draw laser beams, wireframes (spaceship outlines, obstacles), bullet trails, predictive paths, or special “shatter” effects on collision.
 
-12. In-Game Tutorial or Hints
-Show contextual on-screen tutorial prompts (“Press L/R to dodge”, “Checkpoint reached!”) at relevant moments using basic text rendering from the template.
 
-13. Power-ups and Cheat Modes
+
+11. Power-ups and Cheat Modes
 Create and integrate power-ups (like temporary shield, speed boost, slow motion, or invulnerability/cheat mode).
 Handle their spawning, collection, visual feedback, and effects on gameplay.
 
-14. Trail and Ghost System
+12. Trail and Ghost System
 Draw a fading trail behind the spaceship (e.g., with points, lines). Optionally, show a “ghost” path from the previous run to challenge improvement.
 
 

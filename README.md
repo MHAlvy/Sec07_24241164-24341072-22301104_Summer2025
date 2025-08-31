@@ -51,8 +51,5 @@ Draw laser beams, wireframes (spaceship outlines, obstacles), bullet trails, pre
 Create and integrate power-ups (like temporary shield, speed boost, slow motion, or invulnerability/cheat mode).
 Handle their spawning, collection, visual feedback, and effects on gameplay.
 
-12. Trail and Ghost System
-Draw a fading trail behind the spaceship (e.g., with points, lines). Optionally, show a “ghost” path from the previous run to challenge improvement.
-
 
 
